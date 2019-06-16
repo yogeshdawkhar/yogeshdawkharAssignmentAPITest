@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Assignment suite" verbose="1">
+	<test name="API Test">
+		<classes>
+			<class name="com.assignment.producttests.AddProductTest" />
+			<class name="com.assignment.producttests.DeleteProductTest" />
+			<class name="com.assignment.producttests.GetProductTest" />
+			<class name="com.assignment.producttests.GetAllProductsTest" />
+			<class name="com.assignment.producttests.UpdateProductTest" />
+			<class name="com.assignment.storestests.AddStoreTest" />
+			<class name="com.assignment.storestests.DeleteStoreTest" />
+			<class name="com.assignment.storestests.GetAllStoresTest" />
+			<class name="com.assignment.storestests.GetStoreTest" />
+			<class name="com.assignment.storestests.UpdateStoreTest" />
+		</classes>
+	</test>
+</suite>
